@@ -151,7 +151,7 @@ export const ITEMS = [
   },
   {
     id: 'avatar',
-    url: './avatar/',
+    url: './avatar2009/',
     title: 'Аватар',
     subtitle: 'Пандора · фан-сайт фильма Джеймса Кэмерона',
     desc: 'Первая встреча с Пандорой: народ на’ви, Древо Душ и история Джейка Салли.',
@@ -164,7 +164,7 @@ export const ITEMS = [
   },
   {
     id: 'avatar-way-of-water',
-    url: './avatar-way-of-water/',
+    url: './avatar2022/',
     title: 'Аватар: Путь воды',
     subtitle: 'Погружение на Пандору',
     desc: 'Океан Пандоры, рифовый клан Меткайина и семья Салли вдали от леса.',
@@ -177,7 +177,7 @@ export const ITEMS = [
   },
   {
     id: 'avatar-fire-and-ash',
-    url: './avatar-fire-and-ash/',
+    url: './avatar2025/',
     title: 'Аватар 3: Огонь и пепел',
     subtitle: 'Фан-сайт',
     desc: 'Третья глава саги Джеймса Кэмерона: Народ Пепла и другая, огненная сторона Пандоры.',

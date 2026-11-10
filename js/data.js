@@ -86,7 +86,7 @@ export const ITEMS = [
   },
   {
     id: 'franklin-expedition',
-    url: './franklin-expedition/',
+    url: './FranklinExpedition/',
     title: 'Экспедиция Франклина',
     subtitle: 'Два корабля и 129 человек',
     desc: '«Эребус» и «Террор» ушли искать Северо-Западный проход в 1845 году. Из Арктики не вернулся никто.',
@@ -112,7 +112,7 @@ export const ITEMS = [
   },
   {
     id: 'dahlia-lucan',
-    url: './dahlia-lucan/',
+    url: './BlackDahlia/',
     title: 'Чёрный георгин и лорд Лукан',
     subtitle: 'Два дела',
     desc: 'Убийство Элизабет Шорт в Лос-Анджелесе в 1947 году и исчезновение лорда Лукана в Лондоне в 1974-м. Оба дела не закрыты.',

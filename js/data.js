@@ -34,7 +34,7 @@ export const CATEGORIES = [
 export const ITEMS = [
   {
     id: 'dyatlov-pass',
-    url: './dyatlov-pass/',
+    url: './TheDyatlovPassIncident/',
     title: 'Перевал Дятлова',
     subtitle: 'Гора мертвецов',
     desc: 'Девять туристов группы Игоря Дятлова погибли на Северном Урале в ночь на 2 февраля 1959 года. О причинах спорят до сих пор.',
@@ -47,7 +47,7 @@ export const ITEMS = [
   },
   {
     id: 'amelia-earhart',
-    url: './amelia-earhart/',
+    url: './DisappearanceOfAmeliaEarhart/',
     title: 'Исчезновение Амелии Эрхарт',
     subtitle: 'Архивное расследование',
     desc: '2 июля 1937 года «Локхид Электра» пропал над Тихим океаном на пути к острову Хауленд. Самолёт и экипаж не найдены.',
@@ -60,7 +60,7 @@ export const ITEMS = [
   },
   {
     id: 'mary-celeste',
-    url: './mary-celeste/',
+    url: './MaryCeleste/',
     title: 'Мария Целеста',
     subtitle: 'Архив неизвестного',
     desc: 'В декабре 1872 года бригантину нашли в Атлантике под парусами, с грузом на борту — и без единого человека.',

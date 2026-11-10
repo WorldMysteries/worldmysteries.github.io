@@ -1,1 +1,252 @@
-Home
+<!doctype html>
+<html lang="ru" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Untold Archive — каталог нерассказанных историй: тайны, расследования, космос, кино</title>
+    <meta
+      name="description"
+      content="Untold Archive — каталог авторских сайтов: перевал Дятлова, Амелия Эрхарт, «Мария Целеста», дело Кеннеди, Атлантида, атлас Вселенной, «Интерстеллар» и «Аватар»."
+    />
+    <meta name="theme-color" content="#101113" />
+    <link rel="canonical" href="https://untoldarchive.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Untold Archive" />
+    <meta property="og:title" content="Untold Archive — архив нерассказанных историй" />
+    <meta
+      property="og:description"
+      content="Неразгаданные тайны, громкие расследования, космос и кино. Каждый материал — отдельный сайт."
+    />
+    <meta property="og:url" content="https://untoldarchive.com/" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23101113'/%3E%3Crect x='6' y='13' width='20' height='6' fill='%23ff5a36'/%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Sofia+Sans+Extra+Condensed:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Тема применяется до отрисовки, чтобы страница не мигала -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('ua-theme');
+          if (saved === 'light' || saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#catalog">Перейти к каталогу</a>
+
+    <header class="top">
+      <div class="wrap top__inner">
+        <a class="brand" href="./" aria-label="Untold Archive — на главную">
+          <span>Untold</span><i class="brand__bar" aria-hidden="true"></i><span>Archive</span>
+        </a>
+
+        <nav class="top__nav" aria-label="Разделы страницы">
+          <a href="#catalog">Каталог</a>
+          <a href="#soon">В подготовке</a>
+          <a href="#about">О проекте</a>
+        </nav>
+
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Включить светлую тему">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+          </svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============================ Первый экран ============================ -->
+      <section class="hero">
+        <div class="wrap">
+          <div class="hero__head">
+            <h1 class="hero__title">
+              <span class="hero__line">Архив</span>
+              <span class="hero__line"><span class="redact">нерассказанных</span></span>
+              <span class="hero__line">историй</span>
+            </h1>
+
+            <p class="hero__lede">
+              Неразгаданные тайны, громкие расследования, космос и кино. Каждая карточка каталога
+              ведёт на отдельный сайт — со своей историей, фактами и версиями.
+            </p>
+          </div>
+
+          <div class="hero__foot">
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#catalog">
+                Открыть каталог
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" /></svg>
+              </a>
+              <button class="btn" type="button" data-random>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 7h3c5 0 7 10 12 10h3M3 17h3c1.6 0 2.9-1 4-2.4M21 7h-3c-1.6 0-2.9 1-4 2.4M18 4l3 3-3 3M18 14l3 3-3 3" />
+                </svg>
+                Случайное дело
+              </button>
+            </div>
+
+            <dl class="stats">
+              <div class="stats__item">
+                <dt id="statItemsLabel">материалов</dt>
+                <dd id="statItems">—</dd>
+              </div>
+              <div class="stats__item">
+                <dt id="statSectionsLabel">разделов</dt>
+                <dd id="statSections">—</dd>
+              </div>
+              <div class="stats__item stats__item--wide">
+                <dt>последнее поступление</dt>
+                <dd id="statLatest">—</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== Каталог ============================== -->
+      <section class="catalog" id="catalog" aria-labelledby="catalogTitle">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="section-title" id="catalogTitle">Каталог</h2>
+            <p class="count" id="count" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="controls">
+            <form class="search" id="searchForm" role="search">
+              <label class="sr-only" for="search">Поиск по каталогу</label>
+              <svg class="icon search__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.5" /><path d="m16 16 5 5" />
+              </svg>
+              <input
+                id="search"
+                name="q"
+                type="search"
+                placeholder="Дятлов, 1937, Пандора…"
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <kbd class="search__kbd" aria-hidden="true">/</kbd>
+              <button class="search__clear" id="searchClear" type="button" aria-label="Очистить поиск" hidden>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+              </button>
+            </form>
+
+            <div class="select">
+              <label class="sr-only" for="sort">Сортировка</label>
+              <select id="sort">
+                <option value="no">По номеру</option>
+                <option value="new">Сначала новые поступления</option>
+                <option value="old">События: от древних к недавним</option>
+                <option value="recent">События: от недавних к древним</option>
+                <option value="az">По названию, А → Я</option>
+              </select>
+            </div>
+
+            <div class="segmented" role="group" aria-label="Вид каталога">
+              <button type="button" data-view="grid" aria-pressed="true">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="4" y="4" width="7" height="7" /><rect x="13" y="4" width="7" height="7" />
+                  <rect x="4" y="13" width="7" height="7" /><rect x="13" y="13" width="7" height="7" />
+                </svg>
+                <span>Карточки</span>
+              </button>
+              <button type="button" data-view="list" aria-pressed="false">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+                <span>Реестр</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="chips" id="chips" role="group" aria-label="Разделы каталога"></div>
+
+          <ul class="grid" id="grid" data-view="grid"></ul>
+
+          <div class="empty" id="empty" hidden>
+            <p class="empty__title">В архиве такого нет</p>
+            <p class="empty__text" id="emptyText"></p>
+            <button class="btn" type="button" id="resetFilters">Показать весь каталог</button>
+          </div>
+
+          <noscript>
+            <p class="noscript">Каталог собирается скриптом. Включите JavaScript, чтобы увидеть материалы.</p>
+          </noscript>
+        </div>
+      </section>
+
+      <!-- =========================== В подготовке =========================== -->
+      <section class="soon" id="soon" aria-labelledby="soonTitle">
+        <div class="wrap soon__inner">
+          <div>
+            <h2 class="section-title" id="soonTitle">В подготовке</h2>
+            <p class="soon__text">Архив пополняется. Новые материалы появляются в конце каталога.</p>
+          </div>
+
+          <ul class="soon__list">
+            <li><span>Актёры и актрисы</span><em>новый раздел</em></li>
+            <li><span>Новые фильмы</span><em>раздел «Кино»</em></li>
+            <li><span>Новые тайны и расследования</span><em>пополнение</em></li>
+            <li>
+              <span class="redact redact--still" aria-hidden="true">засекречено</span>
+              <span class="sr-only">Ещё одна тема — пока не раскрывается</span>
+              <em>пока не раскрываем</em>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============================= О проекте ============================= -->
+      <section class="about" id="about" aria-labelledby="aboutTitle">
+        <div class="wrap about__inner">
+          <h2 class="section-title" id="aboutTitle">О проекте</h2>
+          <div class="about__text">
+            <p class="about__lead">
+              Untold Archive — коллекция сайтов об историях, в которых до сих пор не поставлена точка,
+              и о мирах, в которые хочется вернуться.
+            </p>
+            <p>
+              Одна тема — один сайт. Эта страница служит указателем: найдите материал по названию,
+              разделу или времени событий и переходите к чтению. Клавиша
+              <kbd>/</kbd> сразу ставит курсор в поиск.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <a class="brand brand--small" href="./" aria-label="Untold Archive — на главную">
+          <span>Untold</span><i class="brand__bar" aria-hidden="true"></i><span>Archive</span>
+        </a>
+        <p class="footer__copy">© <span id="year">2026</span> untoldarchive.com</p>
+        <a class="footer__up" href="#top" id="toTop">
+          Наверх
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" /></svg>
+        </a>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

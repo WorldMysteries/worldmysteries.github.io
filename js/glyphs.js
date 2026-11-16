@@ -98,6 +98,18 @@ const GLYPHS = {
     '<circle cx="32" cy="30" r="19"/><circle cx="32" cy="30" r="26"/>' +
     '<path d="M32 35v27"/>',
 
+  // Лабиринт Фавна
+  labyrinth:
+    '<path d="M8 8h48v48H16v-8h32V16H24v24h16v-8h-8"/>' +
+    '<circle cx="32" cy="32" r="2"/>',
+
+  // Прицел — дело «Зодиака»
+  crosshair:
+    '<circle cx="32" cy="32" r="20"/>' +
+    '<path d="M32 6v52"/><path d="M6 32h52"/>' +
+    '<path d="M26 14h12"/><path d="M26 50h12"/>' +
+    '<path d="M14 26v12"/><path d="M50 26v12"/>',
+
   // Портрет — для раздела «Актёры и актрисы»
   person:
     '<circle cx="32" cy="22" r="10"/>' +

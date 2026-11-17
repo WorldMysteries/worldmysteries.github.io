@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://untoldarchive.com/sitemap.xml
+Sitemap: https://untoldarchive.com/sitemap-ru.xml

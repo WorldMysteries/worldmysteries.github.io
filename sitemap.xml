@@ -2,67 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://untoldarchive.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/TheDyatlovPassIncident/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/de/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/DisappearanceOfAmeliaEarhart/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/fr/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/MaryCeleste/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/es/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/JohnFitzgeraldKennedy/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/ru/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/FranklinExpedition/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/TheDyatlovPassIncident-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/AlexanderOfMacedon/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/DisappearanceOfAmeliaEarhart-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/BlackDahlia/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/MaryCeleste-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/universe/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/JohnFitzgeraldKennedy-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/interstellar/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/FranklinExpedition-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/avatar2009/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/AlexanderOfMacedon-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/avatar2022/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/BlackDahlia-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/avatar2025/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/universe-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
-    <loc>https://untoldarchive.com/atlantis/</loc>
-    <priority>0.8</priority>
+    <loc>https://untoldarchive.com/interstellar-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://untoldarchive.com/avatar2009-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://untoldarchive.com/avatar2022-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://untoldarchive.com/avatar2025-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://untoldarchive.com/atlantis-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://untoldarchive.com/lil-miss-en/</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
     <loc>https://untoldarchive.com/pans-labyrinth-en/</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
     <loc>https://untoldarchive.com/zodiac-website-en/</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-11-17</lastmod>
   </url>
 </urlset>
